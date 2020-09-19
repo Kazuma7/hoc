@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('hello', 'SingleController');
+Route::get('hello', 'ReController@index');
