@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('hello', 'TempController@index');
+Route::get('hello/{id?}', 'TempController@index');
