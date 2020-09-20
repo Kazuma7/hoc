@@ -11,4 +11,6 @@
 |
 */
 
-Route::get('hello', 'TempController@index');
+Route::get('hello', 'SubmitController@index');
+
+Route::post('hello', 'SubmitController@post');
