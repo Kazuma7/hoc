@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('hello', 'ReController@index');
+Route::get('hello', 'TempController@index');
